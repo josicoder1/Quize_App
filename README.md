@@ -28,5 +28,5 @@ It allows users to answer multiple-choice questions, get instant feedback on ans
 ## 📸 Screenshots
 
 
-```md
-![Quiz App Screenshot](./public/image.png)
+
+<img width="1901" height="991" alt="Image" src="https://github.com/josicoder1/Quize_App/quize_app/public/image.png" />
