@@ -1,32 +1,16 @@
-# 🎯 Quiz App
+# React + Vite
 
-An **interactive Quiz Application** built with **React.js**.  
-It allows users to answer multiple-choice questions, get instant feedback on answers, track their score, and navigate through questions with a clean UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
-- 📌 Multiple-choice questions with dynamic rendering  
-- 📌 Instant feedback (Correct/Wrong answer highlighting)  
-- 📌 “Next” button to navigate through questions  
-- 📌 Question counter with progress tracking  
-- 📌 **Score counter** to track correct answers throughout the quiz  
-- 📌 Responsive and user-friendly UI with custom CSS  
-- 📌 Built using React Hooks (`useState`, `useRef`)  
-- 📌 Bundled with **Webpack** for scalability and performance  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## 🛠️ Tech Stack
-- **React.js** – Frontend framework  
-- **JavaScript (ES6+)** – Core logic  
-- **CSS3** – Styling  
-- **Webpack** – Module bundler  
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 📸 Screenshots
-
-
-
-<img width="1901" height="991" alt="Image" src="https://github.com/josicoder1/Quize_App/quize_app/public/image.png" />
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
